@@ -11,17 +11,10 @@ import { RouterLink } from '@angular/router';
         <span class="brand-mark">R</span>
 
         <span class="brand-copy">
-          <strong>Ilustre y Fervorosa Hermandad del Rocío</strong>
-          <small>Carrión de los Céspedes</small>
+          <strong>De Carrión al Rocío</strong>
+          <small>Hermandad del Rocío de Carrión de los Céspedes</small>
         </span>
       </a>
-
-      <div class="header-right">
-        <span class="header-caption">
-          <span class="status-dot"></span>
-          Fe, devoción y tradición
-        </span>
-      </div>
     </header>
   `,
   styles: [`
@@ -137,9 +130,6 @@ import { RouterLink } from '@angular/router';
         font-size: .68rem;
       }
 
-      .header-right {
-        display: none;
-      }
     }
   `]
 })
