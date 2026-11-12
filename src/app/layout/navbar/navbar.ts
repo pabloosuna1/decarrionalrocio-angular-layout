@@ -37,6 +37,14 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           </a>
 
           <a
+            routerLink="/hermandad"
+            routerLinkActive="active"
+            (click)="closeMenu()"
+          >
+            Hermandad
+          </a>
+
+          <a
             routerLink="/informes"
             routerLinkActive="active"
             (click)="closeMenu()"
